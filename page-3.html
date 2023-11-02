@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="/index.html">Home</a></li>
+      <li><a href="page-1.html">Recipes</a></li>
+      <li><a href="page-2.html">Blog</a></li>
+      <li><a href="page-3.html">BMI Calculator</a></li>
+    </ul>
+   <div class="container">
+     <div class="card">
+     <div class="imgbox">
+      <br><br><img src="/Images/HE.webp" />
+    </div>
+    <p>
+      <a href="https://www.hsph.harvard.edu/nutritionsource/healthy-eating-plate/"><b>Healthy Eating Plate</b>
+      </a></p>
+  </div>
+      <br>
+      <div class="bmi">
+        <h2>Calculate BMI</h2>
+        <input id="height" type="number" placeholder="Height in Inches" />
+        <input id="weight" type="number" placeholder="Weight in KG" />
+        <button id="Calculate" onclick="calcBmi()">Calculate</button>
+        <p id="result"></p>
+      </div>
+      <div class="card"> 
+        <div class="imgbox">
+          <img src="/Images/veg.jpeg" />
+        </div>
+        <p>
+          <a href="http://ac7pn.com/"><b>30 Healthiest Vegetables to Eat, According to Nutritionists!</b>
+          </a></p>
+      </div>
+    </div>
+  </body>
+</html>
